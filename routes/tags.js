@@ -2,6 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const router = express.Router()
 
+
 let jsondata;
 
 fs.readFile (('./data.json'), 'utf8', (err,json) =>{
