@@ -2,7 +2,8 @@
 File ini berisi project berupa wiki clone dan live chat dengan frontend HTML, CSS, JS dan backend Node.JS ber-framework Express. <br />
 
 Untuk Live Chat:<br />
-Frontend Server: https://aloy-project.000webhostapp.com/<br />
-Backend Server: https://server-backend-196-5d221cba3bbc.herokuapp.com/ atau wss://server-backend-196-5d221cba3bbc.herokuapp.com/ (Protokol WebSocket)<br />
+Frontend Server: https://chatujuh-f7c2a97982c9.herokuapp.com/<br />
+Backend Server: wss://chatujuh-f7c2a97982c9.herokuapp.com/<br />
+<br />
 
 Untuk Wiki Clone:<br />
