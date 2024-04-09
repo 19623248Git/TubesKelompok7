@@ -25,6 +25,10 @@
     color: #ffc107;
 }
 
+#logo{
+    margin-top: 24px;
+}
+
 #jarkom{
     list-style: none;
     background-color: black;
@@ -38,13 +42,23 @@
 
 #app{
     margin-right: 38px;
+    font-size: 20px;
 }
 
 #menu-text{
-    color: aliceblue;
-    font-size : 15px;
+    color: #66fcf1;
+    font-size : 20px;
     display : flex;
     flex : 1;
+}
+
+#menu-text:hover{
+    color: #ffc107;
+}
+
+.LinkButton{
+    display: flex;
+    flex-direction: row;
 }
 
 .content{
@@ -52,7 +66,7 @@
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
-    opacity : 0.5;
+    opacity : 0.8;
     margin: 0 5px;
     border-radius: 15px;
 }
@@ -65,4 +79,33 @@ body {
     background-image: url('https://images8.alphacoders.com/123/1239296.jpg');
     background-size: cover; 
     background-position: center; 
+}
+
+.bawah ul{
+    border-radius: 15px;
+    color: #66fcf1;
+    background-color: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+#dc{
+    margin-right: 38px;
+    font-size: 20px;
+    color: #66fcf1;
+}
+
+#gh{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #66fcf1;
+}
+
+#ig{
+    margin-right: 20px;
+    font-size: 20px;
+    color: #66fcf1;
 }
