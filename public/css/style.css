@@ -59,6 +59,7 @@
 .container img{
     position: absolute;
     width: 40px;
+    height: 40px;
     border-radius: 50%;
     right: -20px;
     top: 32px;
@@ -92,7 +93,7 @@
 
 .text-box{
   padding: 20px 30px;
-  background: #8cb4d4;
+  background: #542E71;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -118,7 +119,7 @@
     list-style: none;
     background-color: black;
     text-decoration: none;
-    color: #66FCF1;
+    color: #A85DE2;
     display: flex;
 }
 
@@ -134,7 +135,7 @@
     list-style: none;
     background-color: black;
     text-decoration: none;
-    color: #66fcf1;
+    color: #A85DE2;
     display:flex;
     flex : 1;
     margin-right: 55px;
@@ -146,7 +147,7 @@
 }
 
 #menu-text{
-    color: #66fcf1;
+    color: #A85DE2;
     font-size : 20px;
     display : flex;
     flex : 1;
@@ -162,14 +163,14 @@
 }
 
 body {
-    background-image: url('https://images8.alphacoders.com/123/1239296.jpg');
+    background-color : #14171C;
     background-size: cover; 
     background-position: center; 
 }
 
 .bawah ul{
     border-radius: 15px;
-    color: #66fcf1;
+    color: #A85DE2;
     background-color: black;
     list-style: none;
     display: flex;
@@ -180,14 +181,14 @@ body {
 
 .links ul{
     border-radius: 15px;
-    color: #66fcf1;
+    color: #A85DE2;
     background-color: black;
     list-style: none;
     display: flex;
     justify-content: space-between;
     height: 60px;
     align-items: center;
-    color: #66fcf1;
+    color: #A85DE2;
     text-decoration: none;
     padding-right: 38px;
 }
@@ -200,19 +201,19 @@ body {
 #dc{
     margin-right: 38px;
     font-size: 20px;
-    color: #66fcf1;
+    color: #A85DE2;
 }
 
 #gh{
     margin-right: 20px;
     font-size: 20px;
-    color: #66fcf1;
+    color: #A85DE2;
 }
 
 #ig{
     margin-right: 20px;
     font-size: 20px;
-    color: #66fcf1;
+    color: #A85DE2;
 }
 
 .left-container-arrow{
@@ -272,7 +273,7 @@ body {
 
 .desc {
     background-color: black;
-    color: aqua;
+    color: #A85DE2;
     border-radius: 15px;
     height: 140px;
     padding-left: 38px;
