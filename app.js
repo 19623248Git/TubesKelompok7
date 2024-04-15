@@ -4,7 +4,13 @@ const express = require('express')
 const fs = require('fs')
 const app = express()
 const expressLayouts = require('express-ejs-layouts')
+
+const connectDB = require('./routes/config/db')
+
 const PORT = 8888 || process.env.PORT;
+
+// connect to MongoDB
+connectDB();
 
 app.set('view engine', 'ejs')
 app.use(expressLayouts)

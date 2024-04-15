@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <%- include('../partials/search.ejs') %>
     <nav class="navbar">
         <ul>
             <li id="home"><a href="/">Home</a></li>
@@ -17,7 +18,11 @@
         </ul>
     </nav>
     <div class="container">
-        <%- body %>
+        <%- include('../partials/header.ejs') %>
+        <main class="main">
+            <%- body %>
+        </main>
+        <%- include('../partials/footer.ejs') %>
     </div>
     <h1><%=name %></h1>
     <p><%=description %></p>
