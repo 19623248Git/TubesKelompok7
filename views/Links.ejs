@@ -4,6 +4,7 @@
             <link rel="stylesheet" href="/css/style.css">
             <link rel="preconnect" href="https://fonts.googleapis.com">
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <script src="https://kit.fontawesome.com/4ec9c01e1c.js" crossorigin="anonymous"></script>
             <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
         </head>
         <div class="wrapper">
@@ -18,14 +19,76 @@
             <span></span>
             <span></span>   
         </div>
-        <nav class="links">
+        <header>
+            <nav class="navbar-link">
+                <ul>
+                    <li><h1 id="komponen-jarkom">KOMPONEN-KOMPONEN JARKOM</h1></li>
+                    <li><a id="homee"href="/"><b>Home</b></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="pg2">
+            <div class="box">
+                <nav class="links">
+                    <ul>
+                        <% links.slice(0, links.length / 4).forEach(link => { %>
+                            <div class="LinkButton">
+                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                            </div>
+                        <% }); %>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="box">
+                <nav class="links">
+                    <ul>
+                        <% links.slice(links.length / 4, links.length / 2).forEach(link => { %>
+                            <div class="LinkButton">
+                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                            </div>
+                        <% }); %>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="box">
+                <nav class="links">
+                    <ul>
+                        <% links.slice(links.length / 2, (links.length / 4) * 3).forEach(link => { %>
+                            <div class="LinkButton">
+                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                            </div>
+                        <% }); %>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="box">
+                <nav class="links">
+                    <ul>
+                        <% links.slice((links.length / 4) * 3).forEach(link => { %>
+                            <div class="LinkButton">
+                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                            </div>
+                        <% }); %>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <footer class="bawahhh">
             <ul>
-            <% links.forEach(link => { %>
-                <div class="LinkButton">
-                    <a href="/tags/<%= link.id %>"><%= link.name %></a>
-                </div>
-            <% }); %>
+                <li>
+                    <div id="tm"><b>Presented by Kelompok 7</b></div>
+                </li>
+                <li>
+                    <div class="logo">
+                        <a id="gh" href="https://github.com/19623248Git"><i class="fa-brands fa-github"></i></a>
+                        <a id="ig" href="https://www.instagram.com/p/CyL092hBr5V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a id="dc" href="https://www.youtube.com/watch?v=xvFZjo5PgG0&pp=ygUIcmlja3JvbGw%3D"><i class="fa-brands fa-discord"></i></a>
+                    </div>
+                </li>
             </ul>
-        </nav> 
+        </footer>
     </body>
 </html>
