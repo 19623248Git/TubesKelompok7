@@ -12,6 +12,9 @@ const PORT = 8888 || process.env.PORT;
 // connect to MongoDB
 connectDB();
 
+app.use(express.urlencoded({ extended: true}));
+app.use(express.json());
+
 app.set('view engine', 'ejs')
 app.use(expressLayouts)
 app.set('layout', 'layouts/full-layout')
