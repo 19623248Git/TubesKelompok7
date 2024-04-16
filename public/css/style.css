@@ -221,6 +221,10 @@ body {
     font-size: 20px;
 }
 
+#logo:hover{
+    color: #ffc107;
+}
+
 #jarkom{
     list-style: none;
     background-color: black;
@@ -234,6 +238,10 @@ body {
 
 #app{
     font-size: 20px;
+}
+
+#app:hover{
+    color: #ffc107;
 }
 
 #menu-text{
