@@ -24,9 +24,9 @@
                 <!-- <li id="page2"><a href="">Page 2</a></li> -->
             </ul>
             <ul>
-            <% links.forEach(link => { %>
+            <% data.forEach(post => { %>
                 <div class="LinkButton">
-                    <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                    <a href="/post/<%= post._id %>"><%= post.title %></a>
                 </div>
             <% }); %>
             </ul>
