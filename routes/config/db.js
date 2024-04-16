@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const MONGODB_URI = "mongodb+srv://traxdize:TubesARCKel7@jarkomwiki.m1qpauv.mongodb.net/wiki"
 const connectDB = async () => {
     try {
         mongoose.set('strictQuery', false);

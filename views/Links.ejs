@@ -31,9 +31,9 @@
             <div class="box">
                 <nav class="links">
                     <ul>
-                        <% links.slice(0, links.length / 4).forEach(link => { %>
+                        <% data.slice(0, data.length / 4).forEach(post => { %>
                             <div class="LinkButton">
-                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                                <a href="/post/<%= post._id %>"><%= post.title %></a>
                             </div>
                         <% }); %>
                     </ul>
@@ -43,9 +43,9 @@
             <div class="box">
                 <nav class="links">
                     <ul>
-                        <% links.slice(links.length / 4, links.length / 2).forEach(link => { %>
+                        <% data.slice(data.length / 4, data.length / 2).forEach(post => { %>
                             <div class="LinkButton">
-                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                                <a href="/post/<%= post._id %>"><%= post.title %></a>
                             </div>
                         <% }); %>
                     </ul>
@@ -55,9 +55,9 @@
             <div class="box">
                 <nav class="links">
                     <ul>
-                        <% links.slice(links.length / 2, (links.length / 4) * 3).forEach(link => { %>
+                        <% data.slice(data.length / 2, (data.length / 4) * 3).forEach(post => { %>
                             <div class="LinkButton">
-                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                                <a href="/post/<%= post._id %>"><%= post.title %></a>
                             </div>
                         <% }); %>
                     </ul>
@@ -67,9 +67,9 @@
             <div class="box">
                 <nav class="links">
                     <ul>
-                        <% links.slice((links.length / 4) * 3).forEach(link => { %>
+                        <% data.slice((data.length / 4) * 3).forEach(post => { %>
                             <div class="LinkButton">
-                                <a href="/tags/<%= link.id %>"><%= link.name %></a>
+                                <a href="/post/<%= post._id %>"><%= post.title %></a>
                             </div>
                         <% }); %>
                     </ul>
