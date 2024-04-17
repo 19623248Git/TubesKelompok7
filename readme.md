@@ -8,4 +8,7 @@ Frontend Server: https://chatujuh-f7c2a97982c9.herokuapp.com/<br />
 Backend Server: wss://chatujuh-f7c2a97982c9.herokuapp.com/<br />
 <br />
 
+Cara mengakses wiki clone dan live chat:
+Buka URL wiki clone atau live chat di browser. Kedua source code tersebut menggunakan Node.js yang dihosting di platform Cyclic (wiki clone) dan Heroku (live chat).
+Video Demo: Pada repository ini
 
